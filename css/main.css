@@ -1,0 +1,200 @@
+@import url(reset.css);
+@keyframes BLOCK {
+    0%{
+        color: brown;
+    }
+    30%{
+        color: black;
+    }
+    50%{
+        color: chartreuse;
+    }
+    70%{
+        color: red;
+    }
+    100%{
+        color: green;
+    }
+}
+@keyframes BLOCK1 {
+    0%{
+        background-color: aqua;
+    }
+    30%{
+        background-color: darkmagenta;
+    }
+    60%{
+        background-color: yellow;
+    }
+    80%{
+        background-color: red;
+    }
+    100%{
+        background-color: green;
+    }
+}
+@keyframes HARAKAT {
+    0%{
+        margin-left: 0%;
+    }
+    100%{
+        margin-left: 900px;
+    }
+}
+@keyframes TEXT {
+    0%{
+        background-color: blue;
+    }
+    10%{
+        background-color: red;
+    }
+    20%{
+        background-color: blue;
+    }
+    30%{
+        background-color: red;
+    }
+    40%{
+        background-color: blue;
+    }
+    50%{
+        background-color: red;
+    }
+    60%{
+        background-color: blue;
+    }
+    70%{
+        background-color: red;
+    }
+    80%{
+        background-color: blue;
+    }
+    90%{
+        background-color: red;
+    }
+    100%{
+        background-color: blue;
+    }
+}
+@keyframes TEXT2 {
+    0%{
+        background-color: blue;
+    }
+    10%{
+        background-color: red;
+    }
+    20%{
+        background-color: blue;
+    }
+    30%{
+        background-color: red;
+    }
+    40%{
+        background-color: blue;
+    }
+    50%{
+        background-color: red;
+    }
+    60%{
+        background-color: blue;
+    }
+    70%{
+        background-color: red;
+    }
+    80%{
+        background-color: blue;
+    }
+    90%{
+        background-color: red;
+    }
+    100%{
+        background-color: blue;
+    }
+}
+.warp {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.block {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.block1 {
+    width: 450px;
+    height: 300px;
+    background-color: darkorange;
+    text-align: center;
+    line-height: 300px;
+    font-size: 60px;
+    border: 5px solid black;
+    font-weight: bold;
+    animation-name: BLOCK;
+    animation-duration: 4s;
+    animation-iteration-count: 8;
+    animation-timing-function: ease-in-out;
+    position: relative;
+
+}
+.block2 {
+    width: 450px;
+    height: 300px;
+    background-color: blue;
+    text-align: center;
+    line-height: 300px;
+    font-size: 60px;
+    border: 5px solid black;
+    font-weight: bold;
+    animation-name: BLOCK1;
+    animation-duration: 4s;
+    animation-iteration-count: 8;
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
+.block3 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    text-align: center;
+    line-height: 150px;
+    font-size: 30px;
+    border: 5px solid black;
+    font-weight: bold;
+    animation: HARAKAT 2s ease-in-out infinite alternate-reverse running 3s backwards ;
+}
+.bloc {
+    display: flex;
+    gap: 10px;
+}
+.text {
+    width: 450px;
+    height: 200px;
+    /* background-color: red; */
+    border: 5px solid black;
+    text-align: center;
+    line-height: 200px;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    animation-name: TEXT;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
+.text1 {
+    width: 450px;
+    height: 200px;
+    /* background-color: red; */
+    border: 5px solid black;
+    text-align: center;
+    line-height: 200px;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    animation-name: TEXT2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
